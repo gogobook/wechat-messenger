@@ -3,6 +3,7 @@
 var _ = require('lodash');
 var Message = require('./message.model');
 
+
 // Get list of messages
 exports.index = function(req, res) {
   Message.find(function (err, messages) {
